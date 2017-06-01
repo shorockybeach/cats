@@ -1,0 +1,45 @@
+* {
+  font-family: Georgia, Times;
+}
+
+h1 {
+  font-size: 55px; 
+  /* color: hsl(350, 58.8%, 42.0%); 
+  HSL may not be supported in this*/
+  color: Yellow; 
+  font-family: Impact;
+  background-color: DarkMagenta;
+  text-align: center;
+  border-radius: 35%;
+}
+/* This is how you make a comment in CSS */
+
+  
+h2 {
+  background-color: rgb(182, 255, 151);
+  color: rgb(123, 88, 9); 
+  color: rgba(123, 88, 9, 0.5);
+  /* This is "RGBa" - "0.5" indicates the alpha value.
+  The latter one is a fallback incase the browser doesn's support RGBa*/
+}
+  
+p {
+  font-size: 18px; 
+  color: Black;
+  background-color: papayawhip;
+  font-family:arial;
+}
+
+
+
+a {
+  color: DarkBlue;
+  text-decoration: none;
+  font-family: ;
+}
+
+img {
+  width: 450px;
+  float: right;
+  border-radius: 50%;
+}
